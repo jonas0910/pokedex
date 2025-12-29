@@ -37,7 +37,7 @@ function App() {
         <div className="h-30 flex justify-center items-center">
           <h1 className="text-4xl font-extrabold text-primary-foreground flex items-center gap-5">
             <img
-              src="src\assets\Poké_Ball_icon.svg.png"
+              src="/Poké_Ball_icon.svg.png"
               className="h-15 w-15"
             />
             POKÉDEX
