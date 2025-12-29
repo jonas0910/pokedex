@@ -56,7 +56,7 @@ function App() {
       </div>
       <div className="w-full grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-5">
         {loading ? (
-          <div className="flex items-center justify-center pt-20">
+          <div className="flex items-center justify-center pt-20 col-span-full">
             Cargando <Loader className="animate-spin ml-2" />
           </div>
         ) : pokemons?.length == 0 ? (
